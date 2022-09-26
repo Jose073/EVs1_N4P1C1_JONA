@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from jona_app1 import views as app1
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('tabla/', app1.displayTabla),
+    path('form/', app1.displayFormulario),
 ]
