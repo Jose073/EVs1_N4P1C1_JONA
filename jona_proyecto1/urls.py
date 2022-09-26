@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-<<<<<<< HEAD
+
 from jona_app1 import views as app1
 from jona_app2 import views as app2
 
