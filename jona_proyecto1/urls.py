@@ -15,10 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+<<<<<<< HEAD
 from jona_app1 import views as app1
+from jona_app2 import views as app2
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('tabla/', app1.displayTabla),
     path('form/', app1.displayFormulario),
+    path('lista/', app2.displayList),
+    path('boton/', app2.displayBotones),
 ]
